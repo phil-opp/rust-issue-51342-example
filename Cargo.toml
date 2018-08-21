@@ -1,0 +1,10 @@
+[package]
+authors = ["Philipp Oppermann <dev@phil-opp.com>"]
+name = "testtest"
+version = "0.1.0"
+
+[dependencies]
+cortex-m-rt = "0.5.1"
+
+[profile.release]
+#lto = true
