@@ -15,6 +15,6 @@ fn main() -> ! {
 }
 
 #[panic_implementation]
-fn panic(info: &PanicInfo) -> ! {
+fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
